@@ -1,0 +1,39 @@
+<!-- Exercício 001, correspondente à aula 04 do Curso de JavaScript -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa JS 01</title>
+    <style>
+        body {
+            background-color: rgb(148, 67, 248);
+            color: white;
+            font: normal 20pt Arial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá Mundo</h1>
+    <p>Parágrafo exemplo.</p>
+
+    <script>
+        window.alert('Bem vindo!');
+        let nome = window.prompt("Qual é o seu nome?");
+        let gostou = window.confirm('Está gostando de JS?');        
+
+        if (gostou){
+            window.alert(`Que bom que você está gostando, ${nome}`);
+        }
+        else{
+            window.alert(`Obrigado pelo seu feedback, ${nome}`);
+        }
+        
+    </script>
+
+</body>
+
+</html>
